@@ -2,7 +2,7 @@
 const data = {
     name: 'Alex Andersson',
     image: '/assets/images/Robot-A-remove.png',
-    username: 'avneesh0612',
+    username: 'Alex-Andersson',
     keywords:
         'Alex, Alexander, Alexander Andersson, web dev, blogger, content creator',
     profession: 'FullStack web3 developer',
