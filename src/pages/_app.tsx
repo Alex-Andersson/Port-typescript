@@ -13,11 +13,9 @@ const App = ({ Component, pageProps }: AppProps) => {
     return (
         <>
             <NextSeo
-                canonical={data.website}
                 defaultTitle={data.name}
                 description={data.about}
-                openGraph={{
-                    url: data.website,
+                openGraph={{                    
                     title: data.name,
                     description: data.about,
                     images: [
