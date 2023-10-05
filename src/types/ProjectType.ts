@@ -7,7 +7,7 @@ interface ProjectType {
         Live?: string;
     };
     about: string;
-    role: string;
+
 }
 
 export type { ProjectType };
