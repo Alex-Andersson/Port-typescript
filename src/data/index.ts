@@ -1,4 +1,3 @@
-
 const data = {
     name: 'Alex Andersson',
     image: '/assets/images/Robot-A-remove.png',
@@ -33,7 +32,7 @@ const data = {
             name: 'Spotify Clone',
             image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--kSEvrETr--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i2vhn7q6wnuwvo3av0uj.png',
             about: 'Spotify clone with React and Spotify API',
-            tech: ['React', 'Redux', 'Javascript', 'Material UI', ],
+            tech: ['React', 'Redux', 'Javascript', 'Material UI'],
             links: {
                 GitHub: 'https://github.com/Alex-Andersson/Spotify-clone',
                 Live: 'https://spotify-clone-alex-9e8b4190f68f.herokuapp.com/',

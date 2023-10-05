@@ -7,7 +7,6 @@ interface ProjectType {
         Live?: string;
     };
     about: string;
-
 }
 
 export type { ProjectType };

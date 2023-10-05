@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             <NextSeo
                 defaultTitle={data.name}
                 description={data.about}
-                openGraph={{                    
+                openGraph={{
                     title: data.name,
                     description: data.about,
                     images: [

@@ -1,6 +1,6 @@
+import Logo from '../assets/images/mac-pro.png';
 import { Title } from './Common/Title';
 import data from '@/data';
-import Logo from "../assets/images/mac-pro.png"
 import Image from 'next/image';
 import React from 'react';
 

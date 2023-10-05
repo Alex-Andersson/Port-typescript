@@ -1,8 +1,9 @@
-import Image from '../../assets/images/Robot-smal.png'
-import NavOption from './NavOption';
+import Logo from '../../assets/images/Robot-smal.png';
+import Image from 'next/image';
 import navOptions from './navOptions';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
+import NavOption from './NavOption';
 
 const Header = () => {
     const [handleShow, setHandleShow] = useState(false);
@@ -41,7 +42,7 @@ const Header = () => {
                     title="Avneesh"
                     to="intro"
                 >
-                    <img src={Image.src} alt='Logo' className="w-24 h-24" />
+                    <Image src={Logo} alt="Logo" className="w-20 h-20" />
                 </Link>
 
                 <ol className="hidden space-x-8 md:flex">

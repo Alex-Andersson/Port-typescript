@@ -2,9 +2,6 @@ import { GitHubIcon, VisitIcon } from '../../Icons';
 import { ProjectType } from '@/types';
 import { FC } from 'react';
 
-
-
-
 interface IProjectProps {
     project: ProjectType;
 }
