@@ -2,6 +2,9 @@ import { GitHubIcon, VisitIcon } from '../../Icons';
 import { ProjectType } from '@/types';
 import { FC } from 'react';
 
+
+
+
 interface IProjectProps {
     project: ProjectType;
 }
@@ -12,7 +15,7 @@ export const Project: FC<IProjectProps> = ({ project }) => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
                 alt={project.name}
-                className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg object-contain"
+                className="relative md:w-[450px] w-full ml-4 h-[350px] rounded-lg object-contain"
                 loading="lazy"
                 src={project.image}
             />
@@ -31,9 +34,6 @@ export const Project: FC<IProjectProps> = ({ project }) => {
                         {tech}
                     </span>
                 ))}
-                <p className="text-textDark mt-2">
-                    <span className="text-neon">Role:</span> {project.role}
-                </p>
 
                 <div className="flex mt-4 space-x-4">
                     {project.links.GitHub && (

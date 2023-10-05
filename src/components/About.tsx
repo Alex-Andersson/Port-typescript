@@ -1,5 +1,6 @@
 import { Title } from './Common/Title';
 import data from '@/data';
+import Logo from "../assets/images/mac-pro.png"
 import Image from 'next/image';
 import React from 'react';
 
@@ -20,7 +21,7 @@ export const About = () => {
                     alt={data.name}
                     className=" relative mx-auto mt-20 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-72 border-neon"
                     height={300}
-                    src={data.image}
+                    src={Logo}
                     width={300}
                 />
             </div>

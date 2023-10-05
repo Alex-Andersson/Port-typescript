@@ -1,4 +1,4 @@
-import Logo from '../../Icons/Logo';
+import Image from '../../assets/images/Robot-smal.png'
 import NavOption from './NavOption';
 import navOptions from './navOptions';
 import { useEffect, useState } from 'react';
@@ -41,7 +41,7 @@ const Header = () => {
                     title="Avneesh"
                     to="intro"
                 >
-                    <Logo className="cursor-pointer" />
+                    <img src={Image.src} alt='Logo' className="w-24 h-24" />
                 </Link>
 
                 <ol className="hidden space-x-8 md:flex">
