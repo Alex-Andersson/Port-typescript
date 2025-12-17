@@ -45,7 +45,7 @@ const data = {
             tech: ['React', 'Redux', 'Javascript', 'Material UI'],
             links: {
                 GitHub: 'https://github.com/Alex-Andersson/Spotify-clone',
-                Live: 'https://spotify-clone-alex-9e8b4190f68f.herokuapp.com/',
+                Live: 'https://spotify-clone-ftag.vercel.app/',
             },
         },
     ],
