@@ -1,13 +1,23 @@
 const data = {
-    name: 'Alex Andersson',
+    name: 'Alexander Popov',
     image: '/assets/images/Robot-A-remove.png',
-    username: 'Alex-Andersson',
+    username: 'Alexander-Popov',
     keywords:
-        'Alex, Alexander, Alexander Andersson, web dev, blogger, content creator',
+        'Alex, Alexander, Alexander Popov, web dev, blogger, content creator',
     profession: 'FullStack web3 developer',
     intro: 'My Pasion for Tech is endles, to get best and evolve is my goal! Make the future better. I also teach others to get in to the Tech world!',
     about: 'Based in Nyköping, Im a seasoned web developer skilled in frontend, backend, TypeScript, and Python. My journey extends into machine learning, showcasing my knack for problem-solving. With an pasion drive to learn and innovate, I blend expertise with curiosity in every project.',
     projects: [
+        {
+            name: 'Nodebase N8N Clone',
+            image: '/assets/images/node.jpg',
+            about: 'Nodebase is a workflow automation tool similar to N8N. Build workflows to automate tasks.',
+            tech: ['Nextjs', 'N8N', 'React', 'Typescript', 'Polar'],
+            links: {
+                GitHub: 'https://github.com/Alex-Andersson/nodebase',
+                Live: 'https://nodebase-sandy.vercel.app/',
+            },
+        },
         {
             name: 'Image Generator',
             image: 'https://cdn.midjourney.com/ac7c1eec-42a8-425f-9882-2b4a58c9d314/0_2.png',
@@ -30,7 +40,7 @@ const data = {
         },
         {
             name: 'Spotify Clone',
-            image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--kSEvrETr--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i2vhn7q6wnuwvo3av0uj.png',
+            image: '/assets/images/Spotify.png',
             about: 'Spotify clone with React and Spotify API',
             tech: ['React', 'Redux', 'Javascript', 'Material UI'],
             links: {
