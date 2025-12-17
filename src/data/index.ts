@@ -29,13 +29,13 @@ const data = {
             },
         },
         {
-            name: 'Threads',
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtX422ZbCL54TqbalryivQn2XLam4-Aejpn86Q0MUy6z_ZrP-46SPEXcFcyErgluplWw&usqp=CAU',
-            about: 'Threads is app for community. Post threads and follow users .',
-            tech: ['React', 'Next.js', 'Tailwind', 'Typescript', 'clerk'],
+            name: 'Meet-Ai',
+            image: '/assets/images/meet-ai.png',
+            about: 'Meet-Ai is a community-driven platform for sharing and discovering AI-generated content.',
+            tech: ['React', 'Next.js', 'Tailwind', 'Typescript', 'openai'],
             links: {
-                GitHub: 'https://github.com/Alex-Andersson/Threads-Nextjs',
-                Live: 'https://threads-nextjs-lemon.vercel.app/',
+                GitHub: 'https://github.com/Alex-Andersson/meet-ai',
+                Live: 'https://meet-ai-wheat-pi.vercel.app/',
             },
         },
         {
